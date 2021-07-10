@@ -1,0 +1,29 @@
+package com.week2labexercise.com;
+import java.util.*;
+public class AreaOfCircle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Hi There.. Welcome to the program of Area of circle");
+		Scanner sc = new Scanner(System.in); 
+		 System.out.print("Enter the radius: "); 
+		 
+		 /*We are storing the entered radius in double
+		 * because a user can enter radius in decimals
+		 */
+		 
+		 double radius = sc.nextDouble(); 
+		 
+		 //Area = PI*radius*radius
+		 
+		double area = Math.PI * (radius * radius); 
+		 System.out.println("The area of circle is: " + area); 
+		 
+		 //Circumference = 2*PI*radius
+		
+		 double circumference= Math.PI * 2*radius; 
+		 System.out.println( "The circumference of the circle is:"+circumference) ; 
+	}
+
+}
